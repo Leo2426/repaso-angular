@@ -1,0 +1,13 @@
+<mat-card  class="card">
+  <mat-card-header aria-label="card title" >
+    <h1> {{bundle.title}}</h1>
+  </mat-card-header>
+  <img aria-label="image of bundle" mat-card-image src="{{bundle.photoUrl}}" alt="Photo of a Shiba Inu">
+  <mat-card-content >
+    <h2 aria-label="rating" >Rating: {{bundle.rating | number}}</h2>
+    <h2 aria-label="price" >Price: {{bundle.price | currency:'USD':'symbol':'1.2-2'}}</h2>
+    <h2 aria-label="you save">You save:{{save}} </h2>
+  </mat-card-content>
+</mat-card>
+
+

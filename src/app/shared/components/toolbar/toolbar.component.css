@@ -1,0 +1,27 @@
+.toolbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+}
+
+
+.left{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  background-color: #42a3d5;
+}
+
+.right{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #691057;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}

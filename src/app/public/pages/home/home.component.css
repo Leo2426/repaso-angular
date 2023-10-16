@@ -1,0 +1,21 @@
+.hero{
+  background: url("https://ember.com/cdn/shop/files/230914_launch_WebBanner-Desktop_2048x.jpg");
+  background-size: cover;
+  height: 60vh;
+  margin-bottom: 2rem;
+}
+
+h1{
+  font-size: 2rem;
+  font-family: Verdana, serif;
+  color: #333;
+  text-align: center;
+}
+
+p{
+  padding: 0 8rem 0 8rem;
+  font-size: 1rem;
+  font-family: Verdana, serif;
+  color: #333;
+  text-align: center;
+}
